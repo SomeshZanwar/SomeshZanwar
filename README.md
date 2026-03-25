@@ -5,6 +5,6 @@
 - 👯 I’m open to collaborating on high-impact data projects — analytics, experimentation, or ML-driven products
 - 🤔 I’m focused on improving performance, reliability, and data quality in real-world data systems
 - 💬 Ask me about SQL, Python, data modeling, A/B testing, dashboards, and end-to-end data workflows
-- 📫 How to reach me: [LinkedIn] | [Email]
+- 📫 How to reach me: www.linkedin.com/in/someshzanwar | someshzanwar345@gmail.com | (682) 403-0698
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: I prioritize business impact over fancy models — if it doesn’t drive decisions, it’s noise
