@@ -43,9 +43,13 @@ Focused on analytics infrastructure, data quality, and explainable machine learn
 ## Tech Stack
 
 **Data & Analytics:** SQL, Python, Pandas, NumPy
+
 **Data Engineering:** PostgreSQL, dbt, ETL pipelines, data modeling
+
 **Machine Learning:** Scikit-learn, XGBoost, SHAP
+
 **Visualization:** Power BI, Tableau, Streamlit
+
 **Tools:** Git, Docker, Jupyter
 
 ---
