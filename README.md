@@ -1,6 +1,5 @@
 ## Hi, I’m Somesh
 
-<img width="1536" height="1024" alt="Professional data analytics banner design" src="https://github.com/user-attachments/assets/f90122b4-62a5-4e74-ae8a-1bd13e8a3ffb" />
 
 **Data Analyst | Analytics Engineering | Applied ML**
 
