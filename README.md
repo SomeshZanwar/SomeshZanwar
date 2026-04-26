@@ -1,42 +1,49 @@
-## Hi, I’m Somesh
-
+## Hi, I'm Somesh
 
 **Data Analyst | Analytics Engineering | Applied ML**
 
-I build data systems that turn raw data into reliable, decision-ready outputs.
-Focused on analytics infrastructure, data quality, and explainable machine learning.
+I build analytics systems where the data is actually trustworthy — not just fast.
+Focused on data governance, experimentation, and decision-ready pipelines.
 
 ---
 
 ## What I Do
 
-* Design **end-to-end data workflows** (ingestion → transformation → analytics)
-* Build **analytics systems**, not just dashboards
-* Apply **machine learning with explainability** for real business use cases
-* Focus on **data quality, monitoring, and reliability**
+- Design **end-to-end data workflows** (ingestion → transformation → governance → analytics)
+- Build **data quality systems** that catch failures upstream, before they reach the dashboard
+- Structure **experiments and KPI frameworks** that connect analytical results to business decisions
+- Apply **machine learning with explainability** so model outputs can actually be acted on
 
 ---
 
 ## Featured Work
 
-### 🔹 AI Data Governance Platform
+### AI Data Governance Platform
+Analytics teams often discover bad data after they've already used it.
 
-* Built a data quality and monitoring system using PostgreSQL, dbt, and Python
-* Designed rule engine, dataset health scoring, and incident tracking
-* Added AI-based incident explanation layer for faster debugging
-* Enables proactive monitoring across analytics datasets
+I built a governance system that catches quality failures upstream — before they reach the dashboard. Uses PostgreSQL, dbt, and Python to run automated quality rules, track incidents, score dataset health, and generate AI-assisted explanations for non-technical stakeholders.
 
-### 🔹 Retail Analytics & Inventory Optimization
+→ [View repo](https://github.com/SomeshZanwar/ai-data-governance-platform)
 
-* Processed **541K+ transactions** using SQL and Python
-* Identified top **20% products driving 75% revenue** (ABC analysis)
-* Reduced manual reporting effort by **3–4 hours/week** via dashboard automation
+### Decision Intelligence Experimentation Platform
+Most experiment outputs answer "did it work?" but not "what should we do next?"
 
-### 🔹 Customer Churn Prediction (Explainable ML)
+I built an experimentation system that structures A/B tests, runs statistical significance testing, identifies segment-level performance differences, and connects results to rollout decisions — not just charts.
 
-* Built XGBoost model (**ROC-AUC: 0.84**)
-* Used SHAP to explain drivers of churn
-* Translated model outputs into actionable retention strategies
+→ [View repo](https://github.com/SomeshZanwar/decision-intelligence-experimentation-platform)
+
+### Retail Analytics & Inventory Optimization
+- Identified top **20% of products driving 75% of revenue** via ABC analysis on 541K+ transactions
+- Reduced dashboard load time by **40%** through SQL indexing and aggregation strategy
+- Replaced manual reporting with automated Streamlit dashboard — saving **3–4 hours/week**
+
+→ [View repo](https://github.com/SomeshZanwar/retail-sales-inventory-analytics)
+
+### Customer Churn Prediction (Explainable ML)
+- Built XGBoost model achieving **ROC-AUC: 0.84** on 7,043 customers
+- Used SHAP to identify key churn drivers and translate them into retention strategy recommendations — so the model output was actionable, not just accurate
+
+→ [View repo](https://github.com/SomeshZanwar/customer-churn-prediction-explainability)
 
 ---
 
@@ -44,11 +51,11 @@ Focused on analytics infrastructure, data quality, and explainable machine learn
 
 **Data & Analytics:** SQL, Python, Pandas, NumPy
 
-**Data Engineering:** PostgreSQL, dbt, ETL pipelines, data modeling
+**Analytics Engineering:** PostgreSQL, dbt, ETL pipelines, data modeling, data quality
 
 **Machine Learning:** Scikit-learn, XGBoost, SHAP
 
-**Visualization:** Power BI, Tableau, Streamlit
+**Visualization & BI:** Power BI, Tableau, Streamlit
 
 **Tools:** Git, Docker, Jupyter
 
@@ -56,25 +63,19 @@ Focused on analytics infrastructure, data quality, and explainable machine learn
 
 ## Current Focus
 
-* Scalable data pipelines (dbt, SQL optimization)
-* Data quality systems and observability
-* Building production-style analytics projects
+- Experiment tracking and KPI reliability systems
+- Decision support pipelines that connect data to action
+- Building production-style analytics projects with governance baked in
 
 ---
 
 ## Connect
 
-* LinkedIn: https://www.linkedin.com/in/someshzanwar
-* Email: [someshzanwar345@gmail.com](mailto:someshzanwar345@gmail.com)
-* Phone: (682) 403-0698
+- LinkedIn: https://www.linkedin.com/in/someshzanwar
+- Portfolio: https://someshzanwar.github.io/
+- Email: someshzanwar345@gmail.com
 
 ---
 
-## Note
-
-I prioritize **business impact over model complexity**.
-If it doesn’t drive decisions, it doesn’t matter.
-
-
-
-<img width="1536" height="1024" alt="Professional data analytics banner design" src="https://github.com/user-attachments/assets/f90122b4-62a5-4e74-ae8a-1bd13e8a3ffb" />
+I prioritize business impact over model complexity.
+If it doesn't drive decisions, it doesn't matter.
