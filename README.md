@@ -63,10 +63,15 @@ Built with **Python, SQL, and dbt**.
 ## Technical Stack
 
 **Data & Analytics:** SQL · Python · pandas · NumPy · Jupyter
+
 **Analytics Engineering:** PostgreSQL · dbt · data modeling · ETL pipelines · data quality checks
+
 **BI & Visualization:** Power BI · Tableau · Streamlit · Plotly
+
 **ML & Statistics:** scikit-learn · XGBoost · SHAP · statistical testing · model evaluation
+
 **Governance:** data quality rules · metadata layers · audit logs · policy checks · dataset health scoring · AI governance patterns · agent governance
+
 **Tools:** Git · GitHub · Docker · pytest
 
 ---
