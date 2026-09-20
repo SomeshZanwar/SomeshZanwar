@@ -1,95 +1,50 @@
 # Hi, I'm Somesh Zanwar
 
-**Master's in Data Science @ UT Arlington**
+**Data analyst building reliable data systems and practical AI.** I work across analytics, data engineering, and AI engineering, with a focus on whether the data and decisions behind a product can be trusted.
 
-I work across data analytics, analytics engineering, data governance, and AI agent governance. Most of my projects start from the same question:
+I'm completing an M.S. in Data Science at **The University of Texas at Arlington** (December 2026). I'm interested in **Data Analyst, Data Engineer, and AI Engineer** opportunities.
 
-> Can this data, metric, workflow, or AI agent actually be trusted enough to support a real decision?
+[Portfolio & all projects](https://someshzanwar.github.io/) · [Resume](https://someshzanwar.github.io/Somesh_Zanwar.pdf) · [LinkedIn](https://www.linkedin.com/in/someshzanwar/) · [Email](mailto:someshzanwar345@gmail.com)
 
-Not "does the dashboard look right." More like, does anyone agree on what the metric means, who owns the definition, and what happens when the number changes? That is usually where things get interesting.
+## Experience
 
----
+**Junior Data Analyst · IVS Software Solutions · Sep 2022–Sep 2024**
 
-## What I'm Building Toward
+- Analyzed **80K–150K operational records per cycle** with SQL and Python; validation and reconciliation improved reporting accuracy by **30%**.
+- Automated recurring reports and optimized SQL joins and incremental loads, reducing data preparation time by **40%** and saving **4–6 hours per cycle**.
+- Worked with **three internal teams** on Power BI dashboards, KPI definitions, reusable datasets, and recurring reports.
 
-I am finishing my Master's at UT Arlington and looking for internship, co-op, or new-grad roles in data analytics, BI, product analytics, analytics engineering, or data/AI governance.
+## Selected projects
 
-My strongest fit is with teams where reliable data and governed workflows are treated as real engineering problems, not afterthoughts bolted on after the dashboard ships.
+| Project | What it does | Stack |
+| --- | --- | --- |
+| [MetricTrust Control Plane](https://github.com/SomeshZanwar/metrictrust-control-plane) | Controls analytics-agent actions with policy checks, signed permits, and 21 automated tests. [Live demo](https://metrictrust-control-plane.onrender.com/) | Python · FastAPI · SQLAlchemy · pytest |
+| [DataTrust OS](https://github.com/SomeshZanwar/Datatrust-OS) | Connects 12 automated data quality checks to incidents, lineage, and trust reporting. | Python · PostgreSQL · dbt · Streamlit |
+| [Decision Intelligence Experimentation Platform](https://github.com/SomeshZanwar/Decision-Intelligence-Experimentation-Platform) | Turns experiment events into lift estimates, confidence intervals, segment analysis, and rollout evidence. [Live demo](https://experiment-decision-simulator.streamlit.app/) | PostgreSQL · dbt · Python |
+| [Metric Decomposition Engine](https://github.com/SomeshZanwar/Metric-Decomposition-Engine) | Investigates KPI changes across dimensions and ranks the segments driving movement. [Live demo](https://metric-change-investigator.streamlit.app/) | Python · PostgreSQL · Streamlit |
+| [AI Data Governance Platform](https://github.com/SomeshZanwar/AI-Data-Governance-Platform) | Monitors pipeline health and makes validation failures and incidents visible. [Live demo](https://data-reliability-control-center.streamlit.app/) | PostgreSQL · dbt · Python |
+| [Data Quality-Aware Agent Governance](https://github.com/SomeshZanwar/Data-Quality-Aware-Agent-Governance) | Combines agent authorization with dataset quality signals at access time. [Live demo](https://agent-governance-simulator.streamlit.app/) | Python · Policy · Microsoft AGT |
 
----
+I'm also working with **UTA's Office of Information Technology** on an in-progress, private capstone exploring intelligent IT ticket routing. The [portfolio](https://someshzanwar.github.io/#projects) has the full project index.
 
-## Open-Source Contributions
+## Open source
 
-These are the governance-adjacent projects I've contributed to. All three are verifiable.
+**Five merged pull requests to [Microsoft's Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit):**
 
-### Microsoft AGT 
+- [#1818](https://github.com/microsoft/agent-governance-toolkit/pull/1818) · Data quality-aware governance adopter entry
+- [#2038](https://github.com/microsoft/agent-governance-toolkit/pull/2038) · Agent SRE tutorial fixes
+- [#2114](https://github.com/microsoft/agent-governance-toolkit/pull/2114) · AgentMesh quickstart scaffolding fixes
+- [#2224](https://github.com/microsoft/agent-governance-toolkit/pull/2224) · Data quality-aware governance example
+- [#2278](https://github.com/microsoft/agent-governance-toolkit/pull/2278) · dbt-backed data quality evidence adapter
 
-Contributed to a curated collection of frameworks, tools, standards, and research focused on governing AI agents. The work connects directly to what I spend most of my time thinking about: how AI agents, data access, observability, and governance controls come together in production systems.
+I also contribute to **AgentTrust** and explore data quality evidence for agent-to-agent governance. See the [open-source section of my portfolio](https://someshzanwar.github.io/#open-source) for context.
 
-### AgentTrust : Early Contributor
+## Tools I use
 
-Invited as an early contributor to the AgentTrust repository. The problems here are the ones I keep coming back to: how should AI agents prove trustworthiness? What evidence should exist around agent workflows? How does governance move from documentation into something operational?
+**Analytics & BI:** SQL · Python · pandas · Excel · Power BI · KPI design · experimentation
 
-### A2A Governance / Security Proposal
+**Data engineering:** PostgreSQL · dbt · data modeling · validation · reporting automation
 
-Opened a governance and security proposal in the A2A ecosystem — focused on vendor-neutral documentation for governance and security expectations in agent-to-agent communication. The core interest: how agents should follow rules, access data, and leave behind reviewable evidence.
+**AI & software:** scikit-learn · XGBoost · FastAPI · React · Docker · Git · CI · pytest
 
----
-
-## Projects
-
-### DataTrust OS
-
-A governance-ready analytics engineering project built around a simple idea: analytics systems should not only produce metrics, they should also prove whether those metrics are trustworthy.
-
-The project includes reliable data pipelines, modeled analytics layers, data quality checks, governance marts, and decision-ready outputs using **dbt, PostgreSQL, and SQL**. The kind of system where if someone asks "can we trust this number?" there is an actual answer, not just a shrug.
-
-### ProofLayer : AI Data Governance Platform *(exploratory)*
-
-A conceptual governance platform direction I'm developing. The question it tries to answer:
-
-> Can you show what your AI system did, what data it used, and whether it followed the right rules?
-
-The design combines data contracts, agent audit trails, synthetic data generation for privacy-safe sharing, and compliance artifacts that turn system behavior into reviewable evidence. This is early-stage thinking, not a shipped product, but it represents the direction I'm building toward.
-
-### Decision Intelligence & Experimentation
-
-Projects focused on connecting metrics, experiments, and product decisions. The kind of work where the question is not just "what happened" but "why did the metric change, which segment drove it, is the change statistically meaningful, and what should the team do next?"
-
-Built with **Python, SQL, and dbt**.
-
----
-
-## Technical Stack
-
-**Data & Analytics:** SQL · Python · pandas · NumPy · Jupyter
-
-**Analytics Engineering:** PostgreSQL · dbt · data modeling · ETL pipelines · data quality checks
-
-**BI & Visualization:** Power BI · Tableau · Streamlit · Plotly
-
-**ML & Statistics:** scikit-learn · XGBoost · SHAP · statistical testing · model evaluation
-
-**Governance:** data quality rules · metadata layers · audit logs · policy checks · dataset health scoring · AI governance patterns · agent governance
-
-**Tools:** Git · GitHub · Docker · pytest
-
----
-
-## What I Actually Do Well
-
-I'm not going to list fifteen bullet points that all say "I'm great at everything." Here is what I consistently do:
-
-- Turn raw data into structured, tested analytics layers — not fragile one-off queries that break when someone changes a column name.
-- Build dashboards backed by reliable data models where the metric definitions are documented and the data quality is checked before anything reaches a stakeholder.
-- Connect analytics work to the actual business question. The dashboard is not the deliverable. The decision it supports is.
-- Think about governance at both the dataset level and the AI-agent level : who has access, what rules apply, what evidence exists.
-- Explain technical systems to non-technical people without dumbing things down or hiding the complexity that matters.
-
----
-
-## Connect
-
-- **LinkedIn:** [linkedin.com/in/someshzanwar](https://www.linkedin.com/in/someshzanwar)
-- **Portfolio:** [someshzanwar.github.io](https://someshzanwar.github.io/)
-- **Email:** [someshzanwar345@gmail.com](mailto:someshzanwar345@gmail.com)
+**Reliability & governance:** data quality checks · lineage · policy controls · audit evidence
